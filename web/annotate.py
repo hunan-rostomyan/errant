@@ -33,8 +33,8 @@ def annotate(orig, cor):
     with open('tmp/out') as fp:
         annotations = fp.read().split('\n')
 
-    copyfile('tmp/out', args.sentences + '.aann')
-    annotations_json = m2_to_json(args.sentences + '.aann')
+    copyfile('tmp/out', args.sentences + '.errant')
+    annotations_json = m2_to_json(args.sentences + '.errant')
 
     return annotations, annotations_json
 

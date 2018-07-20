@@ -12,7 +12,7 @@ To get started, install the requirements:
 This repo comes with example sentences, so just do:
 
 - `cd web`
-- `./aann.py ../example/set1 -p [PORT]`
+- `./annotate.py ../example/sentences -p [PORT]`
 
 ## Annotate
 
