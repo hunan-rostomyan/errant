@@ -24,7 +24,7 @@ Navigate to localhost:[PORT] and you should see something like this:
 
 After annotations:
 
-![alt blank-ui](https://preview.ibb.co/gUdb9J/Screen_Shot_2018_07_20_at_1_16_20_PM.png)
+![alt blank-ui](https://image.ibb.co/n8DXid/Screen_Shot_2018_07_20_at_1_16_20_PM.png)
 
 # ERRANT
 
