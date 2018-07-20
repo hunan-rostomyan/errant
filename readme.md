@@ -1,3 +1,19 @@
+# Web Client
+
+A web client for [chrisjbryant/errant](https://github.com/chrisjbryant/errant). Takes problematic sentences (one per line) as input, allows the user to make corrections, shells out to `errant` to infer corrections, and returns the inferred annotations in CoNLL and JSON formats.
+
+To get started, install the requirements:
+
+- `pip install -r requirements.txt`
+- `python -m spacy download en`
+
+This repo comes with example sentences, so just do:
+
+- `cd web`
+- `./aann.py ../example/set1 -p [PORT]`
+
+Navigate to localhost:[PORT] to use the interface.
+
 # ERRANT
 
 This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:
