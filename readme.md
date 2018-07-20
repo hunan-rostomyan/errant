@@ -2,6 +2,8 @@
 
 A web client for [chrisjbryant/errant](https://github.com/chrisjbryant/errant). Takes problematic sentences (one per line) as input, allows the user to make corrections, shells out to `errant` to infer corrections, and returns the inferred annotations in CoNLL and JSON formats.
 
+## Install
+
 To get started, install the requirements:
 
 - `pip install -r requirements.txt`
@@ -12,7 +14,17 @@ This repo comes with example sentences, so just do:
 - `cd web`
 - `./aann.py ../example/set1 -p [PORT]`
 
-Navigate to localhost:[PORT] to use the interface.
+## Annotate
+
+Navigate to localhost:[PORT] and you should see something like this:
+
+![alt blank-ui](https://preview.ibb.co/g0Dwby/Screen_Shot_2018_07_20_at_1_12_46_PM.png)
+
+## Results
+
+After annotations:
+
+![alt blank-ui](https://preview.ibb.co/gUdb9J/Screen_Shot_2018_07_20_at_1_16_20_PM.png)
 
 # ERRANT
 
